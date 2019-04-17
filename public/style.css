@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.mainbody {
+  display: flex;
+  flex-direction: row;
+  width: 1062px;
+}
+
+#BuySell {
+  position: fixed;
+  top: 96px;
+}
+
+#informationModule {
+  margin-bottom: 60px;
+}
