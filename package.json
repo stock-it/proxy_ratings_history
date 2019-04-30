@@ -19,6 +19,9 @@
   "homepage": "https://github.com/FiveFinance/proxy_jay#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "newrelic": "^5.7.0",
+    "redis": "^2.8.0",
+    "response-time": "^2.3.2"
   }
 }
