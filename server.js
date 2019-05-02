@@ -16,7 +16,7 @@ app.use('/', express.static(path.join(__dirname, 'public')));
 app.use('/stocks/:ticker', express.static(path.join(__dirname, 'public')));
 
 const axios3001 = axios.create({
-  baseURL: 'http://localhost:3001',
+  baseURL: 'http://54.245.157.68:3001',
 });
 
 app.get('/api/:ticker', (req, res) => {
