@@ -6,7 +6,6 @@ const axios = require('axios');
 const app = express();
 const port = process.env.PORT || 8080;
 const cors = require('cors');
-const morgan = require('morgan');
 // const client = redis.createClient();
 
 // client.on('error', (err) => {
@@ -14,7 +13,6 @@ const morgan = require('morgan');
 // });
 
 app.use(cors());
-app.use(morgan())
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.use('/stocks/:ticker', express.static(path.join(__dirname, 'public')));
 
